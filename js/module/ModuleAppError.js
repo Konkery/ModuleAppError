@@ -1,6 +1,6 @@
 /**
  * @class
- * Класс ClassAppError расширяет возможности базового класса ошибок.
+ * Класс ClassAppError основной класс для работы с исключениями, заменяет базовый класс ошибок.
  */
 class ClassAppError {
     /**
@@ -17,4 +17,4 @@ class ClassAppError {
     get Code() {return this._Code;}
 }
 
-exports = ClassAppError; //экспортируем класс, ВНИМАНИЕ - именно класс а не объект!
+exports = ClassAppError; //экспортируем класс
